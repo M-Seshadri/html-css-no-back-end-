@@ -1,0 +1,155 @@
+.section{
+    position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.section h1{
+    position: absolute;
+    text-align: center;
+	font-size: 6rem;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    background: #fff;
+	padding: 20px;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.9;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+.section h2{
+	position: relative;
+    bottom:-300px;
+	font-size: 2rem;
+	color: white;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    z-index: 1;
+	transition: 0.5s;
+	  font-size: 15px;
+
+}
+.video-container{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100;
+}
+
+.hero{
+	
+	height: 700px;
+	width: 100%;
+    background-image: url(banner.jpg);
+    background-position: center;
+}
+
+.form-box{
+	height: 600px;
+	width: 30%;
+	position: relative;
+	margin: 6% auto;
+	background-image: url(formbox.jpg);
+	border-radius: 15px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+	color: white;
+}
+
+#btn{
+	top:0;
+	left: 0;
+	position: absolute;
+	width:110px;
+	height: 100%;
+	background: linear-gradient(to right, #00bfff  , #7300ff);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.social-icons{
+	margin: 30px auto;
+	text-align:center;
+}
+
+.social-icons img{
+	width:30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+	
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	color: white;
+	font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+
+}
+
+.input-field{
+	width: 100%;
+	color: white;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #00bfff
+	outline:none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #00bfff  , #7300ff);
+	border-radius: 30px;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom:68px;
+	position: absolute;
+}
+
+#login{
+	left: 50px;
+
+}
+#signup{
+	left: 450px;
+}
